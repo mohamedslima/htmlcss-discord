@@ -8,9 +8,8 @@
 html {
     font-family: "Whitney", sans-serif;
     font-size: 62.5%;
+    margin: none;
 }
-
-/* RESET MARGIN PAGE */
 
 .clearfix::after {
     content: "";
@@ -18,24 +17,22 @@ html {
     clear: both;
 }
 
+/* RESET MARGIN PAGE */
+
 .container {
-    margin: 0 12%;
-    border: solid 1px red;
+    margin: 0 7em;
 }
 
 /* Header */
 
 header{
     height: 70px;
-    background-color: #3161e0;
+    background-color: #255ee8;
 }
 
 nav > div {
     display: inline-block;
-}
-
-nav{
-    margin-top: 1.5%;
+    padding-top: 1.2em;
 }
 
 .h-nav.logo,
@@ -67,11 +64,15 @@ ul > li {
     font-size: 1.5em;
 }
 
-.btn-login {
-    background-color: white;
+.btn{
     padding: 10px 15px 10px;
     border: none;
     border-radius: 20px;
+    font-size: 1.5em;
+}
+
+.btn.login{
+    background-color: white;
 }
 
 /* /Header */
@@ -79,22 +80,101 @@ ul > li {
 /* banner */
 
 .banner-bg {
-    background-color: aqua;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 400px;
 }
 
-.banner {
-    margin: 0 20%;
-    height: 400px;
+.h-banner{
     text-align: center;
+    margin: 0 7em .5em;
+    color: white;
 }
 
 .title.h-banner {
     font-size: 4em;
+    padding-top: 100px;
 }
 
-.text-h-banner {
+.text.h-banner {
     font-size: 1.5em;
+    margin: 2em 18em;
 }
 
+.btn-header{
+    text-align: center;
+}
+
+.btn.h-black{
+    background-color: black;
+    color: white;
+    margin-left: 1em;
+}
 
 /* /banner */
+
+/* first section */
+
+.c-main{
+    height: 50em;
+}
+
+.first-sect.column-2{
+    width: 50%;
+    height: 50em;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+}
+
+.first-sect.column-1{
+    height: 50em;
+    display: inline-block;
+    position: absolute;
+}
+
+.micro-title-1,
+.text-paragraph-1,
+.micro-title-2,
+.text-paragraph-2{
+    padding: 0 160px;
+    margin-top: 2em;
+}
+
+.micro-title-1{
+    font-size: 4em;
+}
+
+.text-paragraph-1{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+img.ph-section{
+    height: 300px;
+    margin-top: 15em;
+}
+
+/* /first section */
+
+.second-sect.column-1{
+    width: 50%;
+    height: 50em;
+    display: inline-block;
+    position: relative;
+}
+
+.second-sect.column-2{
+    height: 50em;
+    display: inline-block;
+    position: absolute;
+}
+
+.micro-title-2{
+    font-size: 4em;
+}
+
+.text-paragraph-2{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
