@@ -75,3 +75,26 @@ ul > li {
 }
 
 /* /Header */
+
+/* banner */
+
+.banner-bg {
+    background-color: aqua;
+}
+
+.banner {
+    margin: 0 20%;
+    height: 400px;
+    text-align: center;
+}
+
+.title.h-banner {
+    font-size: 4em;
+}
+
+.text-h-banner {
+    font-size: 1.5em;
+}
+
+
+/* /banner */
