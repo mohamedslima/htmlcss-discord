@@ -1,0 +1,77 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Whitney", sans-serif;
+    font-size: 62.5%;
+}
+
+/* RESET MARGIN PAGE */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    margin: 0 12%;
+    border: solid 1px red;
+}
+
+/* Header */
+
+header{
+    height: 70px;
+    background-color: #3161e0;
+}
+
+nav > div {
+    display: inline-block;
+}
+
+nav{
+    margin-top: 1.5%;
+}
+
+.h-nav.logo,
+.h-nav.login {
+    width: 15%;
+    text-align: center;
+}
+
+.h-nav.center {
+    width: 69.2%;
+    text-align: center;
+}
+
+#logo-header{
+    width: 80%;
+    vertical-align: middle;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+.text-nbar {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    margin: 0 10px;
+    vertical-align: middle;
+    font-size: 1.5em;
+}
+
+.btn-login {
+    background-color: white;
+    padding: 10px 15px 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* /Header */
