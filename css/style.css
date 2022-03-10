@@ -157,15 +157,22 @@ img.ph-section{
 
 /* /first section */
 
+.second-section.c-main{
+    background-color: lightgray;
+    position: relative;
+    top: 120px;
+
+}
+
 .second-sect.column-1{
     width: 50%;
     height: 50em;
     display: inline-block;
     position: relative;
+    top: 50px;
 }
 
-.second-sect.column-2{
-    height: 50em;
+.second-sect.column-2{ 
     display: inline-block;
     position: absolute;
 }
@@ -177,4 +184,9 @@ img.ph-section{
 .text-paragraph-2{
     font-size: 1.5em;
     line-height: 1.5em;
+}
+
+img.ph-section.second-ph{
+    position: relative;
+    bottom: 70px;
 }
